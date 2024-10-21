@@ -1,0 +1,60 @@
+body {
+    
+}
+
+footer {
+    box-shadow: 0 2px 5px rgba(0,0,0, 0.53);
+    display: flex;
+    background-color: #6D7275;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    /*margin-top: 25px;*/
+    justify-content: center;
+}
+
+.footer-column {
+    /*display: flex;
+    flex-direction: column;*/
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: left;
+
+}
+
+h3 {
+    color: #0C120C;
+    text-transform: uppercase;
+}
+
+.footer-image {
+    width:20%;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    transition-duration: 0.3s;
+    /*trying to get icon to bounce*/
+}
+.footer-image:hover {
+   /* margin: .4em;
+    padding: 1em;*/
+    /*background: #e1e1e1;
+    color: darkgray;
+    -webkit-tap-highlight-color: rgb(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;*/
+}
+
+.footer-image-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   /* padding: 32px;*/
+    background-color: #6D7275;
+}
+
+.block-address {
+    clear: both;
+}
